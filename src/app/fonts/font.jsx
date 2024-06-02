@@ -1,3 +1,6 @@
+// ***add variable font***
+
+
 // import needed fonts 
 import { Public_Sans } from 'next/font/google'
 import { Roboto } from 'next/font/google'
@@ -7,6 +10,7 @@ import { Roboto } from 'next/font/google'
 export const public_sans = Public_Sans({ 
     subsets: ["latin"], 
     display: "swap",
+    variable: "--font-public-sans",
 })
 
 
@@ -16,6 +20,7 @@ export const roboto = Roboto({
 
     weight: ["300", "400", "500", "700"],
 
-
+    variable: "--font-roboto",
+    
     display: "swap",
 })

@@ -6,7 +6,7 @@ import { roboto } from "../fonts/font"
 
 export default function GoogleFontLayout({ children }) {
     return (
-        <div className={roboto.className}>
+        <div className={`${roboto.variable} ${public_sans.variable}`}>
 
             {children}
 
